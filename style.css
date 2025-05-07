@@ -208,6 +208,12 @@ svg{
     fill: white;
     margin-top: 10px;
 }
+.phone p{
+font-size: 13px;
+color: rgb(85, 156, 153);
+cursor: pointer;
+font-weight: 900;
+}
 
 
 
@@ -221,6 +227,7 @@ svg{
     }
     header{
         padding:8px 30px;
+        flex-wrap: wrap;
     }
     .nav-text{
         font-size: 11px;
@@ -236,6 +243,10 @@ svg{
         font-weight: 700;
         border-left:0.3px solid rgb(35, 129, 125) ;
         border-radius: 1px;
+     }
+     .phone {
+        display:flex;
+        gap: 20px;
      }
      footer{
         flex-direction: column;
@@ -314,14 +325,12 @@ svg{
     }
     .hero-text2{
         font-size: 27px;
-        width: 70%;
+        width: 60%;
     }
     header{
         padding:8px 20px;
     }
-    .nav-text{
-        font-size: 15px;
-    }
+    
     .nav-text span{
         display: none;
     }
@@ -329,10 +338,19 @@ svg{
         
         padding: 2px 10px;
     }
+    .checker{
+        font-size: 13px;
+    }
+    .nav-text{
+        font-size: 12px;
+    }
+    .phone p{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:535px){
     .hero-text2{
-        width: 100%;
+        
         font-size: 25px;
     }
     .checker{
@@ -340,5 +358,8 @@ svg{
     }
     .nav-text{
         font-size: 12px;
+    }
+    footer{
+        height: 18vh;
     }
 }
