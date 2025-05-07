@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 8px 50px;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 5px solid lightseagreen;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 1000;
+
+
+}
+.nav-logo img{
+width: 70px;
+}
+.nav-text{
+    font-size: 15px;
+    
+}
+.nav-button button{
+    padding: 8px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.hero-text1{
+    
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-size: 17px;
+    color: whitesmoke;
+     text-align: center;
+     padding-top: 15px;
+}
+.hero-text2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin: 115px auto;
+    /* font-family: sans-serif; */
+    font-size: 40px;
+    color: whitesmoke;
+    width: 50%;
+}
+.hero-text2 h1{
+    font-weight: 400;
+}
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url(./assets/antiques-background-img.webp);
+    height: 63vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.contact{
+    background-color: #f0f0f0;
+    padding: 60px 50px;
+}
+.contact-text{
+    text-align: center;
+    
+
+
+    
+}
+.contact-text .section-title {
+    font-size: 45px;
+    color: gray;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", serif;
+}
+.contact-text h3{
+    margin-top: 50px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.inputs{
+   margin-left: auto;
+   margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+    font-family: "Playfair Display", serif;
+    
+}
+.name{
+    height: 40px;
+    width: 105%;
+    padding: 4px;
+
+    font-size: 15px;
+    font-weight: 500;
+    border:1px solid #cccccc;
+    color: black;
+    border-radius: 5px;
+    
+}
+.email{
+    height: 40px;
+    width: 105%;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #cccccc;
+    color: black;
+    border-radius: 5px;
+}
+.message{
+    height: 160px;
+    width: 105%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #cccccc;
+    color: black;
+    border-radius: 5px;
+    
+}
+input{
+    font-family: "Playfair Display", serif;
+}
+textarea{
+    font-family: "Playfair Display", serif;
+    
+}
+.checker{
+    margin-top: 20px;
+    font-weight: 400;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color:gray;
+    font-size: 15px;
+}
+.custom{
+    accent-color: grey;
+    
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.btn button{
+    padding: 20px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.inputs p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-text .section-title::after{
+    content: '';
+    position: absolute;
+    bottom: -27px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4%;
+    height: 2px;
+    background-color:lightgrey;
+    
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: black;
+    height: 20vh;
+}
+.footer-1 p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.footer-2 p{
+color: gray;
+font-family: sans-serif;
+font-size: 13px;
+text-align: right;
+}
+svg{
+    fill: white;
+    margin-top: 10px;
+}
+
+
+
+
+
+@media  screen and (max-width:1054px){
+    .hero-text2{
+        width: 100%;
+        margin: 170px auto;
+        font-size: 30px;
+    }
+    header{
+        padding:8px 30px;
+    }
+    .nav-text{
+        font-size: 11px;
+    }
+     .nav-button button{
+        padding: 1px 9px;
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+        border-right:none ;
+        color: rgb(35, 129, 125);
+        text-decoration: underline;
+        font-weight: 700;
+        border-left:0.3px solid rgb(35, 129, 125) ;
+        border-radius: 1px;
+     }
+     footer{
+        flex-direction: column;
+        padding: 50px 70px;
+     }
+     .footer-2 p{
+        text-align: center;
+     }
+}
+
+@media screen and (max-width:1022px){
+    .hero-text2{
+        width: 100%;
+        margin: 170px auto;
+        font-size: 30px;
+    }
+    header{
+        padding:8px 30px;
+    }
+    .nav-text{
+        font-size: 11px;
+    }
+     .nav-button button{
+        padding: 1px 9px;
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+        border-right:none ;
+        color: rgb(35, 129, 125);
+        text-decoration: underline;
+        font-weight: 700;
+        border-left:1px solid rgb(35, 129, 125) ;
+        border-radius: 1px;
+
+
+     }
+}
+@media screen and (max-width:945px){
+    .inputs{
+        width: 90%;
+    }
+    .name{
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+    }
+}
+@media  screen and (max-width:765px) {
+    .inputs{
+        width: 100%;
+    }
+    .btn button{
+        width: 100%;
+        
+    }
+    .btn{
+        margin-top: 5px;
+    }
+    .checker{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:650px){
+    .hero-text1{
+        font-size: 14px;
+    }
+    .hero-text2{
+        font-size: 27px;
+        width: 70%;
+    }
+    header{
+        padding:8px 20px;
+    }
+    .nav-text{
+        font-size: 15px;
+    }
+    .nav-text span{
+        display: none;
+    }
+    .nav-button button{
+        
+        padding: 2px 10px;
+    }
+}
+@media screen and (max-width:535px){
+    .hero-text2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .checker{
+        font-size: 13px;
+    }
+}
