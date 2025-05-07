@@ -244,6 +244,12 @@ svg{
      .footer-2 p{
         text-align: center;
      }
+     .footer-1 p{
+        text-align: center;
+     }
+     svg{
+        text-align: center;
+     }
 }
 
 @media screen and (max-width:1022px){
@@ -331,5 +337,8 @@ svg{
     }
     .checker{
         font-size: 13px;
+    }
+    .nav-text{
+        font-size: 12px;
     }
 }
